@@ -53,7 +53,7 @@ def main():
         st.info("My Review")
         txt2 = "🔹 I had to refill the incorrect BMI values in order to have the correct class"
         txt3 = "🔹 Highly unbalanced target column"
-        txt4 = "🔹 Random_Forest showed better results than any other algorithm i tired"
+        txt4 = "🔹 Random_Forest showed better results than any other algorithm i tried"
         for j in [txt2,txt3,txt4]:
             st.write(j)
 
