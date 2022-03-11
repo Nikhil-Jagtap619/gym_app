@@ -25,9 +25,9 @@ def main():
     st.write("A quick Machine Learning model that predicts the health status based on the given dataset")
 
     #getting the input
-    age = st.text_input("Enter your Age")
-    height = st.text_input("Enter your Height in Feet")
-    weight = st.text_input("Enter your Weight in Pounds")
+    age = int(st.text_input("Enter your Age"))
+    height = float(st.text_input("Enter your Height in Feet"))
+    weight = float(st.text_input("Enter your Weight in Pounds"))
 
     #predict value
     diagnosis = ""
