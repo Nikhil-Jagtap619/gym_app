@@ -35,13 +35,13 @@ def main():
     if st.button("Predict"):
         diagnosis = predict_status(age, height, weight)
         if diagnosis=="Underweight":
-            st.info("You're Under Weight")
+            st.info("You're Underweight")
             st.markdown("![You're like this!](https://i.gifer.com/L6m.gif)")
         elif diagnosis=="Healthy":
             st.success("You're Healthy")
             st.markdown("![keep up your health dude!](https://i.gifer.com/lf.gif)")
         elif diagnosis=="Overweight":
-            st.warning("You're Over Weight")
+            st.warning("You're Overweight")
             st.markdown("![Go Excercise!](https://i.gifer.com/8TK.gif)")
         else:
             st.error("Obesity!")
