@@ -35,17 +35,21 @@ def main():
     if st.button("Predict"):
         diagnosis = predict_status(age, height, weight)
         if diagnosis=="Underweight":
-            st.info("You're Underweight")
+            st.info("You're Under Weight")
             st.markdown("![You're like this!](https://i.gifer.com/L6m.gif)")
         elif diagnosis=="Healthy":
             st.success("You're Healthy")
             st.markdown("![keep up your health dude!](https://i.gifer.com/lf.gif)")
         elif diagnosis=="Overweight":
-            st.warning("You're Overweight")
+            st.warning("You're Over Weight")
             st.markdown("![Go Excercise!](https://i.gifer.com/8TK.gif)")
-        else:
+        elif diagnosis=="Obese":
             st.error("Obesity!")
             st.markdown("![You need HELP!](https://i.gifer.com/5Waz.gif)")
+        else:
+            st.error("Extremely Obese")
+            st.markdown("![You need HELP!](https://i.gifer.com/5Waz.gif)")
+            
         st.subheader("what next? Take Action Towards Better Health")
         st.write("🙋🏼‍♂️ Maintaining a healthy weight is important for your heart health")
         st.write("🙋🏼‍♂️ Don't be like Spongebob or Patrik")
@@ -53,7 +57,7 @@ def main():
         st.info("My Review")
         txt2 = "🔹 I had to refill the incorrect BMI values in order to have the correct class"
         txt3 = "🔹 Highly unbalanced target column"
-        txt4 = "🔹 Random_Forest showed better results than any other algorithm i tried"
+        txt4 = "🔹 Random_Forest showed better results than any other algorithm i tired"
         for j in [txt2,txt3,txt4]:
             st.write(j)
 
