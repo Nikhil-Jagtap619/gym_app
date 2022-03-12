@@ -54,12 +54,8 @@ def main():
         st.write("🙋🏼‍♂️ Maintaining a healthy weight is important for your heart health")
         st.write("🙋🏼‍♂️ Don't be like Spongebob or Patrik")
         st.write("Maintain a Healthy Weight: [ check right now!](https://www.nhlbi.nih.gov/heart-truth/maintain-a-healthy-weight)")
-        st.info("My Review")
-        txt2 = "🔹 I had to refill the incorrect BMI values in order to have the correct class"
-        txt3 = "🔹 Highly unbalanced target column"
-        txt4 = "🔹 Random_Forest showed better results than any other algorithm i tired"
-        for j in [txt2,txt3,txt4]:
-            st.write(j)
+        
+        
 
         st.write("## Thank you for Visiting \nProject by Nikhil J")
         st.markdown("<h1 style='text-align: right; color: blue; font-size: small;'><a href='https://github.com/Nikhil-Jagtap619/gym_app'>Looking for Source Code?</a></h1>", unsafe_allow_html=True)
