@@ -48,7 +48,7 @@ def main():
             st.markdown("![You need HELP!](https://i.gifer.com/5Waz.gif)")
         else:
             st.error("Extremely Obese")
-            st.markdown("![You need HELP!](https://i.gifer.com/5Waz.gif)")
+            st.markdown("![You need HELP!](https://i.gifer.com/VYAM.gif)")
             
         st.subheader("what next? Take Action Towards Better Health")
         st.write("🙋🏼‍♂️ Maintaining a healthy weight is important for your heart health")
