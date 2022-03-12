@@ -16,7 +16,7 @@ def predict_status(age, height, weight):
     input_data = np.asarray([age, height, weight])
     input_data = input_data.reshape(1,-1)
     prediction = model.predict(input_data)
-    return prediction
+    return prediction[0]
 
 def main():
 
